@@ -3,7 +3,9 @@
 require "bundler/setup"
 require "pu_svg"
 require "simplecov"
+require "coveralls"
 
+Coveralls.wear!
 SimpleCov.start
 
 RSpec.configure do |config|
