@@ -1,0 +1,18 @@
+---
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+  - 2.4.10
+  - 2.5.8
+  - 2.6.6
+  - 2.7.2
+  - ruby-head
+before_install: gem install bundler -v 2.2.4
+bundler_args: --jobs=2
+script:
+  - bundle exec rubocop
+  - bundle exec rspec
+branches:
+  only:
+    - master
