@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "pu_svg/version"
 
 module PuSvg
