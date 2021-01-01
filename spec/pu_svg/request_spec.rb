@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 class DummyClass
+
   include PuSvg::Request
+
 end
 
 RSpec.describe PuSvg::Request do

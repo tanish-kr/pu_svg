@@ -15,5 +15,8 @@ Metrics/MethodLength:
 Style/ClassCheck:
   EnforcedStyle: is_a?
 
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines_except_namespace
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
