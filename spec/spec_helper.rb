@@ -4,6 +4,8 @@ require "bundler/setup"
 require "pu_svg"
 require "simplecov"
 require "coveralls"
+require "pry"
+require "pry-byebug"
 
 Coveralls.wear!
 SimpleCov.start
