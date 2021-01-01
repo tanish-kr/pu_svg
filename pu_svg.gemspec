@@ -5,10 +5,6 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "pu_svg/version"
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = ">= 2.5"
-end
-
-Gem::Specification.new do |spec|
   spec.name          = "pu_svg"
   spec.version       = PuSvg::VERSION
   spec.authors       = ["tanish-kr"]
@@ -18,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Markdown convert to PlantUML as SVG"
   spec.homepage      = "https://github.com/tanish-kr/pu_svg"
   spec.license       = "MIT"
+  spec.required_ruby_version = ">= 2.2"
 
   if spec.respond_to?(:metadata)
 
