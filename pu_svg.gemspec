@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Markdown convert to PlantUML as SVG"
   spec.homepage      = "https://github.com/tanish-kr/pu_svg"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 2.4"
+  spec.required_ruby_version = ">= 2.5"
 
   if spec.respond_to?(:metadata)
 
