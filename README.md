@@ -1,5 +1,9 @@
 # PuSvg
 
+[![Gem Version](https://badge.fury.io/rb/pu_svg.svg)](https://badge.fury.io/rb/pu_svg)
+[![Build Status](https://travis-ci.com/tanish-kr/pu_svg.svg?branch=master)](https://travis-ci.com/tanish-kr/pu_svg)
+[![Coverage Status](https://coveralls.io/repos/github/tanish-kr/pu_svg/badge.svg?branch=master)](https://coveralls.io/github/tanish-kr/pu_svg?branch=master)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pu_svg`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
